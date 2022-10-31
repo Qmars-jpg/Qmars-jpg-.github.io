@@ -1,0 +1,219 @@
+:root {
+--color1:#05b1b1;
+--color2:#52339a;
+}
+header,section {
+    padding: 100px 0;
+}
+header{
+    padding: 100px 0 ;
+}
+/* градиенты для браузеров */
+header,footer{
+    background: var(--color1);
+    background: -moz-linear-gradient(left, var(--color1)0%, var(--color2)100%);
+    background: -webkit-linear-gradient(left, var(--color1) 0%,var(--color2) 100%);
+    background: linear-gradient(to right,  var(--color1)0%,var(--color2) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1), endColorstr=var(--color2),GradientType=1 );
+    
+
+    
+
+}
+/* 1 блок . круглая кнопка по середине */
+.itd_play{
+    width: 60px;
+    
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 30px auto;
+    transition: all 0,2s ease;
+background-color: black;
+}
+.itd_play:hover{
+    background-color:royalblue;
+}
+/* Стилизация треугольника в круглой кнопке */
+
+.itd_triangle{
+    margin-right: -3px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent var(--bs-white);
+}
+
+
+/* в 3 блоке кнопка заказать */
+.btn-itd{
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 8px 30px;
+    color: var(--bs-white);
+    background-color: var(--color2);
+
+}
+.btn-itd:hover{
+    color: var(--bs-white);
+    background-color: var(--color1);
+}
+/* Стилизация видео с ютуб . Взято с интернета */
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+    
+/*кнопка модал окна в лево и красн.цветом */
+    
+
+.btn-close{
+    position: absolute;
+right: 12px;;
+background-color: rgb(255, 0, 0);
+
+}
+/*forwhom*/
+.forwhom h5{
+    padding: 50px;
+    border: 3px solid var(--color1);
+
+
+}
+
+
+
+
+
+
+/*Course*/
+.about, .shedule{
+    background-color: #eee;
+}
+.about i{ 
+    font-size: 25px;
+    color: var(--color2);
+
+
+}
+/* Стилизация иконок в 3 блоке*/
+.itd_circle{
+    margin:0 auto 15px ;
+    width:70px ;
+    height:70px ;
+    border: 3px solid var(--color2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Стилизация линии в 3 блоке*/
+.line{
+    width: 100px;
+    height: 3px;
+    background-color: var(--color1);
+    margin: 15px auto 30px;
+}
+
+
+/*colors*/
+.color1{
+    color: var(--color1);
+}
+.color2{
+    color: var(--color2);
+}
+.bg1{
+    background-color: var(--color1);
+}
+.bg2{
+    background-color: var(--color2);
+}
+
+/*Программа курса*/
+.accordion-button:not(.collapsed){
+
+    color: var(--bs-white);
+
+    background-color: var(--color2);
+}
+/*Программа курса*/
+.learning h5 {
+    padding: 25px;
+    border: 3px solid var(--color1);
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+
+  .img-fluid{
+      height:675px;
+      max-width: 90%;
+      border-radius: 20px 20px 20px 20px;
+      border: 3px solid var(--color1);
+      }  
+
+    /*footer buttons*/
+    .icon-youtube-3{
+        background-color: rgb(255, 0, 0);
+
+    }
+    .icon-facebook-rect-2{
+        background-color: blue;
+    }
+    .icon-twitter-bird-2{
+        background-color: dodgerblue;
+    }
+    .icon-linkedin-3{
+        background-color: lightseagreen;
+    }
+    .icon-mail-5{
+        background-color: darksalmon;
+    }
+    .icon-instagram-3{
+        background-color: violet;
+    }
+    .icon-facebook-5{
+        background-color: darkblue;
+    }
+    footer{
+        padding: 10px 0;
+    }
+
+    
+
+    
+    
+
+
+
+
+
+    
+
+
+
+
+
